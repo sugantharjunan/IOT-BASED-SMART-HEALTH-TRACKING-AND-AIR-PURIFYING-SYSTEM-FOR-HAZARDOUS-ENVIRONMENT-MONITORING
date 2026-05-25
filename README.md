@@ -49,24 +49,24 @@ CLOUD & DISPLAY:
   - Threshold-based alerts and notifications
 
 
-------------------------------------------------------------------------------
+
 3. HARDWARE REQUIREMENTS
 
-  Component              Model / Part              Purpose
-  ---------------------  ------------------------  --------------------------
-  Microcontroller        ESP32 (38-pin)            Main controller + WiFi
-  Pulse Oximeter         MAX30100                  Heart Rate + SpO2
-  Gas Sensor             MQ-2 / MQ-7              CO, LPG, Smoke detection
-  Dust Sensor            GP2Y1010AU0F              Particulate matter (PM2.5)
-  Temp & Humidity        DHT22                     Ambient temp & humidity
-  Display                SSD1306 OLED 0.96"        Local data display
-  Relay Module           5V 1-channel relay        Air purifier control
-  Air Purifier / Fan     12V DC exhaust fan        Environment purification
-  Power Supply           5V 2A USB / Li-Po         System power
-  Resistors / Caps       150 Ohm, 220uF            Dust sensor LED circuit
+  |Component              |Model / Part             | Purpose
+  |---------------------  |------------------------  |--------------------------
+  |Microcontroller        |ESP32 (38-pin)            |Main controller + WiFi
+  |Pulse Oximeter         | MAX30100                 |Heart Rate + SpO2
+  |Gas Sensor             |MQ-2 / MQ-7               |CO, LPG, Smoke detection
+  |Dust Sensor            |GP2Y1010AU0F              |Particulate matter (PM2.5)
+  |Temp & Humidity        |DHT22                     |Ambient temp & humidity
+  |Display                |SSD1306 OLED 0.96"        |Local data display
+  |Relay Module           |5V 1-channel relay        |Air purifier control
+  |Air Purifier / Fan     |12V DC exhaust fan        |Environment purification
+  |Power Supply           |5V 2A USB / Li-Po         |System power
+  |Resistors / Caps       |150 Ohm, 220uF            |Dust sensor LED circuit
 
+---
 
-------------------------------------------------------------------------------
 4. PIN CONNECTIONS
 
   MAX30100 -->      ESP32:
